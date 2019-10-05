@@ -1,0 +1,36 @@
+docker ps
+   86  docker ps -a
+   87  docker images
+   88  docker images -a
+   89  docker info
+   90  docker ps
+   91  docker info
+   92  docker pull
+   93  docker pull centos
+   94  docker run -d centos /bin/bash
+   95  docker run -it centos /bin/bash
+   96  docker info
+   97  docker ps
+   98  docker ps -a
+   99  docker start d28ebaecd199
+  100  docker ps
+  101  docker restart d28ebaecd199
+  102  docker ps
+  103  docker images
+  104  docker run -itd  0f3e07c0138f  /bin/bash
+  105  docker ps
+  106  docker stop 25fd2ee76ca9
+  107  docker commit -m learn -a anji 25fd2ee76ca9 anjaneyulunarapusetti
+  108  docker images
+  109  docker commit -m learn -a anji 25fd2ee76ca9 anjaneyulunarapusetti/ice:v1
+  110  docker images
+  111  docker login:
+  112  docker login -u anjaneyulunarapusetti
+  113  docker push anjaneyulunarapusetti/ice:v1
+  114  docker ps
+  115  docker ps -a
+  116  docker export 25fd2ee76ca9 > anji.tar
+  117  ls
+  118  docker import anji.tar anji:v1
+  119  docker images
+  120  history
